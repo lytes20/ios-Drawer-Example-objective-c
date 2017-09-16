@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B020C003ADA8C177232339 /* Pods_Drawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605387697765E70F3CF4B4F /* Pods_Drawer.framework */; };
+		2C98C1C7E7D51C0710F8FB99 /* Pods_DrawerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831FA8D7F40FA4B042310776 /* Pods_DrawerTests.framework */; };
 		C3F9BF871F6D0DBA0092D82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BF861F6D0DBA0092D82B /* main.m */; };
 		C3F9BF8A1F6D0DBA0092D82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BF891F6D0DBA0092D82B /* AppDelegate.m */; };
 		C3F9BF8D1F6D0DBA0092D82B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BF8C1F6D0DBA0092D82B /* ViewController.m */; };
@@ -16,6 +18,19 @@
 		C3F9BF981F6D0DBA0092D82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F9BF961F6D0DBA0092D82B /* LaunchScreen.storyboard */; };
 		C3F9BFA31F6D0DBA0092D82B /* DrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFA21F6D0DBA0092D82B /* DrawerTests.m */; };
 		C3F9BFAE1F6D0DBA0092D82B /* DrawerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFAD1F6D0DBA0092D82B /* DrawerUITests.m */; };
+		C3F9BFC21F6D23970092D82B /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFC11F6D23970092D82B /* SlideNavigationController.m */; };
+		C3F9BFCB1F6D25870092D82B /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFCA1F6D25870092D82B /* LeftMenuViewController.m */; };
+		C3F9BFD01F6D2B6A0092D82B /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9BFCE1F6D2B6A0092D82B /* menu-button.png */; };
+		C3F9BFD11F6D2B6A0092D82B /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9BFCF1F6D2B6A0092D82B /* menu-button@2x.png */; };
+		C3F9BFDD1F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFD41F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.m */; };
+		C3F9BFDE1F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFD61F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.m */; };
+		C3F9BFDF1F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFD81F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		C3F9BFE01F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFDA1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.m */; };
+		C3F9BFE11F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFDC1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		C3F9BFE51F6D3F910092D82B /* notifications-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9BFE31F6D3F910092D82B /* notifications-button.png */; };
+		C3F9BFE61F6D3F910092D82B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F9BFE41F6D3F910092D82B /* home.png */; };
+		C3F9BFE91F6D41D30092D82B /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F9BFE81F6D41D30092D82B /* NotificationsViewController.m */; };
+		D98BFEB0398FB62E421AE23F /* Pods_DrawerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACE3E6ADD7DCE8EF463C86E /* Pods_DrawerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0336F10F382DDAF7BFD79ED6 /* Pods-Drawer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drawer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drawer/Pods-Drawer.release.xcconfig"; sourceTree = "<group>"; };
+		15970038FD45708361258A27 /* Pods-DrawerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawerUITests/Pods-DrawerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		831FA8D7F40FA4B042310776 /* Pods_DrawerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8605387697765E70F3CF4B4F /* Pods_Drawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB3B5E0828707E6FBBA8881 /* Pods-Drawer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drawer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drawer/Pods-Drawer.debug.xcconfig"; sourceTree = "<group>"; };
+		A93FA19B0CDAE5F1E87105EE /* Pods-DrawerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawerUITests/Pods-DrawerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C3F9BF821F6D0DBA0092D82B /* Drawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F9BF861F6D0DBA0092D82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3F9BF881F6D0DBA0092D82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3F9BF891F6D0DBA0092D82B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3F9BF8B1F6D0DBA0092D82B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3F9BF8C1F6D0DBA0092D82B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3F9BF8B1F6D0DBA0092D82B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Drawer/ViewController.h; sourceTree = "<group>"; };
+		C3F9BF8C1F6D0DBA0092D82B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Drawer/ViewController.m; sourceTree = "<group>"; };
 		C3F9BF8F1F6D0DBA0092D82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3F9BF921F6D0DBA0092D82B /* Drawer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drawer.xcdatamodel; sourceTree = "<group>"; };
 		C3F9BF941F6D0DBA0092D82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +74,30 @@
 		C3F9BFA91F6D0DBA0092D82B /* DrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F9BFAD1F6D0DBA0092D82B /* DrawerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerUITests.m; sourceTree = "<group>"; };
 		C3F9BFAF1F6D0DBA0092D82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F9BFC01F6D23970092D82B /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		C3F9BFC11F6D23970092D82B /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		C3F9BFC91F6D25870092D82B /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		C3F9BFCA1F6D25870092D82B /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		C3F9BFCE1F6D2B6A0092D82B /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		C3F9BFCF1F6D2B6A0092D82B /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		C3F9BFD21F6D2B850092D82B /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		C3F9BFD31F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		C3F9BFD41F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		C3F9BFD51F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		C3F9BFD61F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		C3F9BFD71F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		C3F9BFD81F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		C3F9BFD91F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		C3F9BFDA1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		C3F9BFDB1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		C3F9BFDC1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		C3F9BFE31F6D3F910092D82B /* notifications-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications-button.png"; sourceTree = "<group>"; };
+		C3F9BFE41F6D3F910092D82B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C3F9BFE71F6D41D30092D82B /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		C3F9BFE81F6D41D30092D82B /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		D50E6DA57A536BC84785C6CE /* Pods-DrawerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawerTests/Pods-DrawerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DACE3E6ADD7DCE8EF463C86E /* Pods_DrawerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF31EF9ECA9607388AF8E1C /* Pods-DrawerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawerTests/Pods-DrawerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B020C003ADA8C177232339 /* Pods_Drawer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C98C1C7E7D51C0710F8FB99 /* Pods_DrawerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +121,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98BFEB0398FB62E421AE23F /* Pods_DrawerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0617E030B5B66986337C5BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FB3B5E0828707E6FBBA8881 /* Pods-Drawer.debug.xcconfig */,
+				0336F10F382DDAF7BFD79ED6 /* Pods-Drawer.release.xcconfig */,
+				FFF31EF9ECA9607388AF8E1C /* Pods-DrawerTests.debug.xcconfig */,
+				D50E6DA57A536BC84785C6CE /* Pods-DrawerTests.release.xcconfig */,
+				15970038FD45708361258A27 /* Pods-DrawerUITests.debug.xcconfig */,
+				A93FA19B0CDAE5F1E87105EE /* Pods-DrawerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CC298EF8D5260F033318E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8605387697765E70F3CF4B4F /* Pods_Drawer.framework */,
+				831FA8D7F40FA4B042310776 /* Pods_DrawerTests.framework */,
+				DACE3E6ADD7DCE8EF463C86E /* Pods_DrawerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3F9BF791F6D0DB90092D82B = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +158,8 @@
 				C3F9BFA11F6D0DBA0092D82B /* DrawerTests */,
 				C3F9BFAC1F6D0DBA0092D82B /* DrawerUITests */,
 				C3F9BF831F6D0DBA0092D82B /* Products */,
+				0617E030B5B66986337C5BAF /* Pods */,
+				4CC298EF8D5260F033318E73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +176,11 @@
 		C3F9BF841F6D0DBA0092D82B /* Drawer */ = {
 			isa = PBXGroup;
 			children = (
+				C3F9BFE21F6D3DDB0092D82B /* Resources */,
+				C3F9BFBC1F6D21F80092D82B /* Utilis */,
+				C3F9BFBB1F6D0DCB0092D82B /* Controllers */,
 				C3F9BF881F6D0DBA0092D82B /* AppDelegate.h */,
 				C3F9BF891F6D0DBA0092D82B /* AppDelegate.m */,
-				C3F9BF8B1F6D0DBA0092D82B /* ViewController.h */,
-				C3F9BF8C1F6D0DBA0092D82B /* ViewController.m */,
 				C3F9BF8E1F6D0DBA0092D82B /* Main.storyboard */,
 				C3F9BF941F6D0DBA0092D82B /* Assets.xcassets */,
 				C3F9BF961F6D0DBA0092D82B /* LaunchScreen.storyboard */,
@@ -143,6 +217,75 @@
 			path = DrawerUITests;
 			sourceTree = "<group>";
 		};
+		C3F9BFBB1F6D0DCB0092D82B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9BF8B1F6D0DBA0092D82B /* ViewController.h */,
+				C3F9BF8C1F6D0DBA0092D82B /* ViewController.m */,
+				C3F9BFC91F6D25870092D82B /* LeftMenuViewController.h */,
+				C3F9BFCA1F6D25870092D82B /* LeftMenuViewController.m */,
+				C3F9BFE71F6D41D30092D82B /* NotificationsViewController.h */,
+				C3F9BFE81F6D41D30092D82B /* NotificationsViewController.m */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C3F9BFBC1F6D21F80092D82B /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9BFBF1F6D237B0092D82B /* SlideMenu */,
+			);
+			name = Utilis;
+			sourceTree = "<group>";
+		};
+		C3F9BFBF1F6D237B0092D82B /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9BFCD1F6D2B4A0092D82B /* Animations */,
+				C3F9BFCC1F6D2B3F0092D82B /* Assets */,
+				C3F9BFC01F6D23970092D82B /* SlideNavigationController.h */,
+				C3F9BFC11F6D23970092D82B /* SlideNavigationController.m */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		C3F9BFCC1F6D2B3F0092D82B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9BFCE1F6D2B6A0092D82B /* menu-button.png */,
+				C3F9BFCF1F6D2B6A0092D82B /* menu-button@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C3F9BFCD1F6D2B4A0092D82B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9BFD21F6D2B850092D82B /* SlideNavigationContorllerAnimator.h */,
+				C3F9BFD31F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.h */,
+				C3F9BFD41F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.m */,
+				C3F9BFD51F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.h */,
+				C3F9BFD61F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.m */,
+				C3F9BFD71F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				C3F9BFD81F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				C3F9BFD91F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.h */,
+				C3F9BFDA1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.m */,
+				C3F9BFDB1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				C3F9BFDC1F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		C3F9BFE21F6D3DDB0092D82B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9BFE31F6D3F910092D82B /* notifications-button.png */,
+				C3F9BFE41F6D3F910092D82B /* home.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3F9BFB21F6D0DBA0092D82B /* Build configuration list for PBXNativeTarget "Drawer" */;
 			buildPhases = (
+				F1987E152B29075833B109BA /* [CP] Check Pods Manifest.lock */,
 				C3F9BF7E1F6D0DBA0092D82B /* Sources */,
 				C3F9BF7F1F6D0DBA0092D82B /* Frameworks */,
 				C3F9BF801F6D0DBA0092D82B /* Resources */,
+				1DAF235BDC619F9624F691B8 /* [CP] Embed Pods Frameworks */,
+				CF1666415B353544ED303DDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3F9BFB51F6D0DBA0092D82B /* Build configuration list for PBXNativeTarget "DrawerTests" */;
 			buildPhases = (
+				6BDEBD043C0D8FB76CC1BA34 /* [CP] Check Pods Manifest.lock */,
 				C3F9BF9A1F6D0DBA0092D82B /* Sources */,
 				C3F9BF9B1F6D0DBA0092D82B /* Frameworks */,
 				C3F9BF9C1F6D0DBA0092D82B /* Resources */,
+				74A541E615557AF740DC22C0 /* [CP] Embed Pods Frameworks */,
+				9D1949E5D8FBFEB77BF36A63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3F9BFB81F6D0DBA0092D82B /* Build configuration list for PBXNativeTarget "DrawerUITests" */;
 			buildPhases = (
+				67575088328EEC3776CCC8C3 /* [CP] Check Pods Manifest.lock */,
 				C3F9BFA51F6D0DBA0092D82B /* Sources */,
 				C3F9BFA61F6D0DBA0092D82B /* Frameworks */,
 				C3F9BFA71F6D0DBA0092D82B /* Resources */,
+				98DCA8EF2607735EA07E4567 /* [CP] Embed Pods Frameworks */,
+				41CCCFC3754D6AB37875DDEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +401,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F9BFD01F6D2B6A0092D82B /* menu-button.png in Resources */,
 				C3F9BF981F6D0DBA0092D82B /* LaunchScreen.storyboard in Resources */,
+				C3F9BFE61F6D3F910092D82B /* home.png in Resources */,
 				C3F9BF951F6D0DBA0092D82B /* Assets.xcassets in Resources */,
+				C3F9BFD11F6D2B6A0092D82B /* menu-button@2x.png in Resources */,
+				C3F9BFE51F6D3F910092D82B /* notifications-button.png in Resources */,
 				C3F9BF901F6D0DBA0092D82B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,15 +427,161 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DAF235BDC619F9624F691B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drawer/Pods-Drawer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41CCCFC3754D6AB37875DDEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawerUITests/Pods-DrawerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67575088328EEC3776CCC8C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDEBD043C0D8FB76CC1BA34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74A541E615557AF740DC22C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawerTests/Pods-DrawerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98DCA8EF2607735EA07E4567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawerUITests/Pods-DrawerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1949E5D8FBFEB77BF36A63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawerTests/Pods-DrawerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1666415B353544ED303DDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drawer/Pods-Drawer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1987E152B29075833B109BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3F9BF7E1F6D0DBA0092D82B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C3F9BF931F6D0DBA0092D82B /* Drawer.xcdatamodeld in Sources */,
+				C3F9BFDF1F6D2B850092D82B /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				C3F9BFE01F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				C3F9BFDD1F6D2B850092D82B /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				C3F9BFE11F6D2B850092D82B /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				C3F9BFE91F6D41D30092D82B /* NotificationsViewController.m in Sources */,
 				C3F9BF8D1F6D0DBA0092D82B /* ViewController.m in Sources */,
+				C3F9BFDE1F6D2B850092D82B /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				C3F9BF8A1F6D0DBA0092D82B /* AppDelegate.m in Sources */,
 				C3F9BF871F6D0DBA0092D82B /* main.m in Sources */,
+				C3F9BFCB1F6D25870092D82B /* LeftMenuViewController.m in Sources */,
+				C3F9BFC21F6D23970092D82B /* SlideNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +730,7 @@
 		};
 		C3F9BFB31F6D0DBA0092D82B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB3B5E0828707E6FBBA8881 /* Pods-Drawer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Drawer/Info.plist;
@@ -439,6 +742,7 @@
 		};
 		C3F9BFB41F6D0DBA0092D82B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0336F10F382DDAF7BFD79ED6 /* Pods-Drawer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Drawer/Info.plist;
@@ -450,6 +754,7 @@
 		};
 		C3F9BFB61F6D0DBA0092D82B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF31EF9ECA9607388AF8E1C /* Pods-DrawerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DrawerTests/Info.plist;
@@ -462,6 +767,7 @@
 		};
 		C3F9BFB71F6D0DBA0092D82B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D50E6DA57A536BC84785C6CE /* Pods-DrawerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DrawerTests/Info.plist;
@@ -474,6 +780,7 @@
 		};
 		C3F9BFB91F6D0DBA0092D82B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15970038FD45708361258A27 /* Pods-DrawerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DrawerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,6 +792,7 @@
 		};
 		C3F9BFBA1F6D0DBA0092D82B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93FA19B0CDAE5F1E87105EE /* Pods-DrawerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DrawerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -513,6 +821,7 @@
 				C3F9BFB41F6D0DBA0092D82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3F9BFB51F6D0DBA0092D82B /* Build configuration list for PBXNativeTarget "DrawerTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +830,7 @@
 				C3F9BFB71F6D0DBA0092D82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3F9BFB81F6D0DBA0092D82B /* Build configuration list for PBXNativeTarget "DrawerUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +839,7 @@
 				C3F9BFBA1F6D0DBA0092D82B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

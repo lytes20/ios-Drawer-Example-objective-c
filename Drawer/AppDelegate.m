@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SlideNavigationController.h"
+#import "LeftMenuViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //LeftMenuViewController *leftMenu = [[LeftMenuViewController alloc] init];
+    //RightMenuViewController *rightMenu = [[RightMenuViewController alloc] init];
+    
+    
+    //[SlideNavigationController sharedInstance].rightMenu = rightMenu;
+    //[SlideNavigationController sharedInstance].leftMenu = leftMenu;
     return YES;
 }
 
